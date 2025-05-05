@@ -72,7 +72,7 @@ export default function Home() {
               <input type="email" id="email" name="email" required className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" />
             </div>
             <div className="mb-6">
-              <label htmlFor="message" className="block text-gray-700 font-medium mb-2">Message (Optional)</label>
+              <label htmlFor="message" className="block text-gray-700 font-medium mb-2">Message (Optional) </label>
               <textarea id="message" name="message" rows={4} className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
             </div>
             <div className="text-center">
@@ -93,3 +93,4 @@ export default function Home() {
     </div>
   );
 }
+
